@@ -1,0 +1,9 @@
+from tkinter import *
+
+root=Tk()
+
+abt = Label(text="What is Mudge? Mudge is a mental health app that teaches the importance of your mental health and how to improve your mental health when you are struggling. One great way to improve your mental health and keep it positive is to do good things. This is why Mudge gives you three simple tasks every day! This can and will help with things you are struggling with. This will lead to a happier, healthier, fuller life!What is mental health and why is it important? Mental health is a person's emotional, phycological, and social well-being. If you're really happy then your mental health is great! If you're sad and droopy, not so much. Even though you might not notice your mental health can affect everything you do. If you're sad or feeling out of the weather you might see your grades or performance drop. While if you're happy you can easily see your grades or performance skyrocket! Mental health also applies to relationships too. Would you rather hang out with someone who is moppy all the time or with someone who's happy and fun? Your friends probably think the same as well. One possibly dangerous thing your mental health can affect is your thoughts. If you're really mad, sad, or both you might act out in anger or frustration and do something you would never do normally. In bad cases, this can lead to people you truly care about getting hurt, or worse. This is why it is very important to pay attention to your mental health every now and then. For the better!", wraplength=320)
+abt.pack()
+root.geometry("320x502")
+root.title("About")
+root.mainloop()
